@@ -6,4 +6,4 @@
 	cd ~/webdemo/login_tests
 	sudo python -m SimpleHTTPServer 8000
 ###3: In a new terminal, execute the webdemo test suite...
-	robot ~/webdemo/login_tests
+	robot ~/webdemo
