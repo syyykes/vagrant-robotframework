@@ -14,10 +14,10 @@ https://www.vagrantup.com/
 	username: vagrant
 	password: vagrant
 ###2: Start the demo app server...
-	sudo python ~/webdemo/demoapp/server.py
+	python ~/webdemo/demoapp/server.py
 ###3: In a new terminal, start a server for easy viewing of test results
 	cd ~/webdemo
-	sudo python -m SimpleHTTPServer 8000
+	python -m SimpleHTTPServer 8000
 ###4: In a new terminal, execute the webdemo test suite...
 	cd ~/webdemo
 	robot login_tests
