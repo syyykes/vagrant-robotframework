@@ -16,9 +16,10 @@ https://www.vagrantup.com/
 ###2: Start the demo app server...
 	sudo python ~/webdemo/demoapp/server.py
 ###3: In a new terminal, start a server for easy viewing of test results
-	cd ~/webdemo/login_tests
+	cd ~/webdemo
 	sudo python -m SimpleHTTPServer 8000
 ###4: In a new terminal, execute the webdemo test suite...
-	robot ~/webdemo
+	cd ~/webdemo
+	robot login_tests
 ###5: View the test report
 go to http://localhost:8000/report.html from a browser on the box, or use ifconfig to get the ip and then access it from your host box at http://IPADDRESS:8000/report.html
